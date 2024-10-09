@@ -5,7 +5,7 @@ export default function Home() {
   return (
     <div className={styles.homeContainer}>
       <div className={styles.introSection}>
-        <h1>Welcome, I'm Muhammad Taha Saif</h1>
+        <h1>Welcome, I&apos;m Muhammad Taha Saif</h1>
         <p>
           I am a passionate and dedicated web developer specializing in creating dynamic, responsive, and user-friendly web applications. With expertise in TypeScript, JavaScript, and modern web frameworks, I bring your ideas to life with clean code and innovative designs.
         </p>
@@ -13,8 +13,8 @@ export default function Home() {
           Whether you&apos;re looking for a professional website, custom web applications, or design solutions, I&apos;m here to help you elevate your online presence and grow your business.
         </p>
         <div className={styles.buttonContainer}>
-          <Link href="/contact">
-            <button className={styles.contactButton}>Contact Me</button>
+          <Link href="/contact" className={styles.contactButton}>
+            Contact Me
           </Link>
         </div>
       </div>
