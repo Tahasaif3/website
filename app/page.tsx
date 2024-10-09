@@ -1,5 +1,5 @@
-import Link from 'next/link'
-import styles from '@/styles/Home.module.css'
+import Link from 'next/link';
+import styles from '@/styles/Home.module.css';
 
 export default function Home() {
   return (
@@ -10,7 +10,7 @@ export default function Home() {
           I am a passionate and dedicated web developer specializing in creating dynamic, responsive, and user-friendly web applications. With expertise in TypeScript, JavaScript, and modern web frameworks, I bring your ideas to life with clean code and innovative designs.
         </p>
         <p>
-          Whether you're looking for a professional website, custom web applications, or design solutions, I'm here to help you elevate your online presence and grow your business.
+          Whether you&apos;re looking for a professional website, custom web applications, or design solutions, I&apos;m here to help you elevate your online presence and grow your business.
         </p>
         <div className={styles.buttonContainer}>
           <Link href="/contact">
@@ -30,5 +30,5 @@ export default function Home() {
         </ul>
       </div>
     </div>
-  )
+  );
 }
