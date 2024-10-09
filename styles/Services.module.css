@@ -1,0 +1,17 @@
+.services {
+    max-width: 850px;
+    margin: 0 auto;
+  }
+  
+  .services h1 {
+    color: #006be58f;
+  }
+  
+  .services ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .services li {
+    margin-bottom: 0.6rem;
+  }

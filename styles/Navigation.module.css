@@ -1,0 +1,22 @@
+.nav {
+    background-color: #dcdcdc;
+    padding: 1rem;
+  }
+  
+  .navList {
+    display: flex;
+    justify-content: space-around;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .navList li a {
+    text-decoration: none;
+    color: #000000cd;
+    font-weight: bold;
+  }
+  
+  .navList li a:hover {
+    color: #6f1da7;
+  }

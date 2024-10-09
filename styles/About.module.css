@@ -1,0 +1,34 @@
+.about {
+    max-width: 850px;
+    margin: 0 auto;
+  }
+  
+  .about h1 {
+    color: rgb(59, 86, 113);
+  }
+
+  .aboutContainer{
+    display: flex;
+    align-items: center;
+    padding: 20px;
+  }
+  
+  .imageContainer {
+    flex: 3;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .profileImage {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 4px solid #003ce0;
+  }
+  
+  .aboutContent {
+    flex: 5;
+    padding-left: 25px;
+  }
+  

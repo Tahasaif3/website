@@ -1,0 +1,68 @@
+.home {
+    text-align: center;
+  }
+  
+  .home h1 {
+    color: #0070f3;
+  }
+  .homeContainer {
+    padding: 40px;
+    text-align: center;
+    background-color: #f9f9f9;
+  }
+  
+  .introSection {
+    margin-bottom: 50px;
+  }
+  
+  .introSection h1 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+  }
+  
+  .introSection p {
+    font-size: 1.2rem;
+    margin-bottom: 20px;
+    color: #555;
+  }
+  
+  .buttonContainer {
+    margin-top: 30px;
+  }
+  
+  .contactButton {
+    background-color: #50c254;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 1rem;
+    cursor: pointer;
+  }
+  
+  .contactButton:hover {
+    background-color: #13072b;
+  }
+  
+  .skillsSection {
+    text-align: left;
+    max-width: 600px;
+    margin: 0 auto;
+  }
+  
+  .skillsSection h2 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+  }
+  
+  .skillsSection ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .skillsSection ul li {
+    font-size: 1.4rem;
+    margin-bottom: 12px;
+    color: #b39090;
+  }
+  
