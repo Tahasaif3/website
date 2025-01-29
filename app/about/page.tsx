@@ -14,8 +14,8 @@ export default function About() {
         />
       </div>
       <div className={styles.about}>
-        <h1>About Me</h1>
-        <p>
+        <h1 className={styles.heading}>About Me</h1>
+        <p className={styles.name}>
           <strong>Muhammad Taha Saif</strong> - Junior Frontend Developer & Digital Creator
         </p>
         <p>
