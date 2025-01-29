@@ -1,34 +1,61 @@
+.aboutContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  padding: 2rem;
+  max-width: 900px;
+  margin: auto;
+  gap: 2rem;
+}
+
+.imageContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.profileImage {
+  border-radius: 50%;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+  width: 250px;
+  height: 250px;
+  object-fit: cover;
+}
+
 .about {
-    max-width: 850px;
-    margin: 0 auto;
-  }
-  
-  .about h1 {
-    color: rgb(59, 86, 113);
+  max-width: 800px;
+  text-align: left;
+}
+
+.heading {
+  font-size: 2rem;
+  font-weight: bold;
+  color: #333;
+  text-align: center;
+}
+
+.name {
+  font-size: 1.2rem;
+  font-weight: 600;
+  color: #555;
+  text-align: center;
+  margin-bottom: 1rem;
+}
+
+@media (min-width: 768px) {
+  .aboutContainer {
+    flex-direction: row;
+    text-align: left;
+    gap: 3rem;
   }
 
-  .aboutContainer{
-    display: flex;
-    align-items: center;
-    padding: 20px;
-  }
-  
   .imageContainer {
-    flex: 3;
-    display: flex;
-    justify-content: center;
+    flex-shrink: 0;
   }
-  
+
   .profileImage {
-    width: 150px;
-    height: 150px;
-    border-radius: 50%;
-    object-fit: cover;
-    border: 4px solid #003ce0;
+    width: 300px;
+    height: 300px;
   }
-  
-  .aboutContent {
-    flex: 5;
-    padding-left: 25px;
-  }
-  
+}
